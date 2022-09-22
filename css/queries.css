@@ -1,0 +1,32 @@
+/* Landscape Tablets */
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+/* Tablets */
+@media (max-width: 59em) {
+  /* html {
+    font-size: 50%;
+  } */
+}
+@media (max-width: 48em) {
+  /* html {
+    font-size: 43.75%;
+  } */
+}
+
+/* Mobile */
+@media (max-width: 36em) {
+  .price-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .community {
+    padding-right: 3.2rem;
+  }
+  .description {
+    display: inline;
+  }
+}
